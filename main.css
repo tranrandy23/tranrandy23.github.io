@@ -14,7 +14,7 @@
   
 html{
     font-size:10px;
-    font-family: 'Roboto, sans-serif';
+    font-family: 'Roboto';
     color: #eee;
 }
 
@@ -289,11 +289,17 @@ li{
     transition: color 650ms;
 }
 
-.fa-facebook-square:hover{
+.fa-github-square{
+    margin-top:1rem;
+}
+.fa-github-square:hover{
+    
     color: #3B5998;
 }
-
-.fa-twitter-square:hover{
+.fa-linkedin{
+    margin-top:1rem;
+}
+.fa-linkedin:hover{
     color: #00ACEE;
 }
 
@@ -340,6 +346,10 @@ li{
     font-size: 5rem;
     margin:auto;
     transform: rotate(-45deg);
+}
+
+.skill li{
+    text-align:left;
 }
 /*End services*/
 
